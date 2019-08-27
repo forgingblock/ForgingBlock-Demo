@@ -2,14 +2,10 @@
     <div id="app" style="margin-top:40px;">
         <mu-container class="demo-container">
             <mu-row gutter>
-                <mu-col sm="12" md="4">
+                <mu-col sm="12" md="3">
                     <navigation></navigation>
-                    <div id="nav">
-                        <router-link to="/">Home</router-link> |
-                        <router-link to="/about">About</router-link>
-                    </div>
                 </mu-col>
-                <mu-col sm="12" md="8">
+                <mu-col sm="12" md="9">
                     <router-view></router-view>
                 </mu-col>
             </mu-row>
