@@ -1,4 +1,4 @@
-# fblock
+# Forging block
 
 ## Project setup
 ```
