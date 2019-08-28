@@ -29,7 +29,7 @@
 
 
 <script>
-    import info from '../components/infoPanel';
+    //import info from '../components/infoPanel';
 
     export default {
     name: 'Stores',
@@ -66,7 +66,7 @@
         }
     },
     components: {
-        'info': info,
+        //'info': info,
     }
 };
 </script>
