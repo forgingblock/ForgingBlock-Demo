@@ -1,5 +1,5 @@
 <template>
-    <h1>Integration</h1>
+    <iframe height="500" frameBorder="0" width="100%" src="https://api.forgingblock.io/docs/#integrations"></iframe>
 </template>
 
 <script>
