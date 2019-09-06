@@ -97,9 +97,10 @@ Vue.use(Tooltip);
 Vue.config.productionTip = false
 window.axios=axios;
 
-axios.defaults.baseURL = 'https://api.forgingblock.io/';
+axios.defaults.baseURL = 'https://api.forgingblock.io';
 //axios.defaults.headers.common['Authorization'] = "Bearer " + window.token;
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
+//axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 
 

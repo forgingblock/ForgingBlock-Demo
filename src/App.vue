@@ -37,12 +37,6 @@
         components: {
             'navigation': navigation,
         },
-        data () {
-
-        },
-        methods: {
-
-        }
     };
 
 </script>
