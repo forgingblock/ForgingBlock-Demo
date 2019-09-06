@@ -9,6 +9,7 @@ import Crowdfunding from './views/Crowdfunding.vue'
 import Integration from './views/Integration.vue'
 import Account from './views/Account.vue'
 import Logout from './views/Logout.vue'
+import Register from "./views/Register";
 
 Vue.use(Router)
 
@@ -20,6 +21,11 @@ export default new Router({
             path: '/',
             name: 'dashboard',
             component: Dashboard
+        },
+        {
+            path: '/register',
+            name: 'register',
+            component: Register
         },
         {
             path: '/stores',

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import axios from 'axios'
 import store from './store'
 import 'muse-ui/lib/styles/base.less';
 import {
@@ -94,6 +95,13 @@ Vue.use(TextField);
 Vue.use(Tooltip);
 
 Vue.config.productionTip = false
+window.axios=axios;
+
+axios.defaults.baseURL = 'https://api.forgingblock.io/';
+//axios.defaults.headers.common['Authorization'] = "Bearer " + window.token;
+axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
+
+
 
 new Vue({
   router,

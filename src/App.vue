@@ -4,6 +4,9 @@
             <mu-row gutter style="margin-bottom:20px;">
                 <mu-col sm="12" md="12">
                     <mu-flex class="flex-wrapper" justify-content="end">
+                        <mu-flex class="flex-wrapper" justify-content="end">
+                            <mu-button flat to="register" color="primary">Register</mu-button>
+                        </mu-flex>
                         <mu-flex class="flex-demo" justify-content="end" >
                             <mu-button @click="openAlertDialog" flat color="primary">LOGIN</mu-button>
                             <mu-dialog title="Login to Forging Block" width="600" max-width="80%" :esc-press-close="true" :overlay-close="false" :open.sync="openAlert">
