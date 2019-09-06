@@ -30,5 +30,17 @@ export default new Vuex.Store({
                 })
             //return new Promise((resolve,reject)=>{ })
         },
+        login(context, payload) {
+            console.log(payload);
+            axios.post('/signin', payload)
+                .then((response) => {
+                    console.log(response);
+                })
+                .catch((error) => {
+                    console.log(error.response);
+                    //reject(error);
+                })
+            //return new Promise((resolve,reject)=>{ })
+        },
     }
 })
