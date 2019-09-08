@@ -1,6 +1,7 @@
-# Forging block - Front end dashboard demo for Forgingblock Payment API. 
+# Forgingblock Dashboard Demo  
 
-# API details see:  [Forgingblock API](https://api.forgingblock.io/docs/#fbuni).
+## This is the front end dashboard demo for Forgingblock Payment API. 
+API details see:  [Forgingblock API](https://api.forgingblock.io/docs/#fbuni).
 
 ## Project setup
 ```
