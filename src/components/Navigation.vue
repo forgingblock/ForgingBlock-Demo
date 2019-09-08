@@ -44,7 +44,7 @@
             <router-link to="/crowdfunding">
                 <mu-list-item button :ripple="true">
                     <mu-list-item-action>
-                        <mu-icon value="emoji_people"></mu-icon>
+                        <mu-icon value="people"></mu-icon>
                     </mu-list-item-action>
                     <mu-list-item-title>Crowdfunding</mu-list-item-title>
                 </mu-list-item>
@@ -86,7 +86,7 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="less">
     .mu-item-action {
         min-width: 33px;
     }

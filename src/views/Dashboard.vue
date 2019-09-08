@@ -45,7 +45,7 @@
 
 <script>
 
-    import info from '../components/infoPanel';
+    import info from '../components/infoPanel.vue';
 
     export default {
         name: "Dashboard.vue",
@@ -59,7 +59,7 @@
 
 </script>
 
-<style lang="scss">
+<style lang="less">
     .demo-list-wrap {
         width: 100%;
         max-width: 100%;

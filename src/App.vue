@@ -38,7 +38,7 @@
 </template>
 
 <script>
-    import navigation from './components/Navigation';
+    import navigation from './components/Navigation.vue';
 
     export default {
         name: 'home',
@@ -76,7 +76,8 @@
                 this.$refs.form.validate().then((result) => {
                     console.log('form valid: ', result)
                 });
-            },/*
+            },
+            /*
             clear () {
                 this.$refs.form.clear();
                 this.validateForm = {
@@ -91,7 +92,7 @@
 </script>
 
 
-<style lang="scss">
+<style lang="less">
     .demo-list-wrap {
         width: 100%;
         max-width: 260px;

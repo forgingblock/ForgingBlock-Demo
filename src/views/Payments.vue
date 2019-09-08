@@ -45,10 +45,11 @@
 </template>
 
 <script>
-    import info from '../components/infoPanel';
+    import info from '../components/infoPanel.vue';
 
     export default {
         name: "Payments",
+        
         data () {
             return {
                 options: [
@@ -65,8 +66,17 @@
                 }
             }
         },
+        
         components: {
             'info': info,
+        },
+        
+        methods: {
+            clear() {
+            },
+            
+            submit() {
+            }
         }
     };
 </script>

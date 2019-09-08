@@ -110,7 +110,7 @@
     };
 </script>
 
-<style lang="scss">
+<style lang="less">
     .mu-form .mu-form-item-label {
         width: 140px !important;
     }

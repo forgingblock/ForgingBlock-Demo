@@ -45,8 +45,11 @@
 </template>
 
 <script>
+    import info from '../components/infoPanel.vue';
+
     export default {
         name: "Account",
+        
         data () {
             return {
                 options: [
@@ -63,6 +66,18 @@
                 }
             }
         },
+        
+        components: {
+            'info': info,
+        },
+        
+        methods: {
+            clear() {
+            },
+            
+            submit() {
+            }
+        }
     }
 </script>
 
