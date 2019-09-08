@@ -1,6 +1,5 @@
 <template>
     <div>
-        <info style="margin-bottom: 30px;"></info>
         <mu-paper align-items justify-content :z-depth="1" class="demo-list-wrap">
             <mu-list>
                 <mu-list-item avatar button :ripple="false">
@@ -45,7 +44,6 @@
 
 <script>
 
-    import info from '../components/infoPanel.vue';
 
     export default {
         name: "Dashboard.vue",
@@ -53,7 +51,6 @@
             title: 'Home',
         },
         components: {
-            'info': info,
         },
     }
 

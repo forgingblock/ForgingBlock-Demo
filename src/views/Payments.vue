@@ -1,6 +1,5 @@
 <template>
     <mu-container class="demo-container">
-        <info style="margin-bottom: 30px;"></info>
         <mu-row gutter>
             <mu-col sm="12" md="6">
                 <mu-paper style="padding: 15px;" class="demo-paper" :z-depth="1">
@@ -45,7 +44,6 @@
 </template>
 
 <script>
-    import info from '../components/infoPanel.vue';
 
     export default {
         name: "Payments",
@@ -68,7 +66,6 @@
         },
         
         components: {
-            'info': info,
         },
         
         methods: {

@@ -1,6 +1,5 @@
 <template>
     <div>
-        <!--<info style="margin-bottom: 30px;"></info>-->
         <mu-flex class="flex-wrapper" justify-content="end">
             <mu-flex class="flex-demo" justify-content="center" >
                 <mu-button style="margin-bottom:20px;" class="is-right" fab small right color="primary">
@@ -29,7 +28,6 @@
 
 
 <script>
-    //import info from '../components/infoPanel';
 
     export default {
     name: 'Stores',
@@ -66,7 +64,6 @@
         }
     },
     components: {
-        //'info': info,
     }
 };
 </script>
